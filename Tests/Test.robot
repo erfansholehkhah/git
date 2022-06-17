@@ -11,7 +11,7 @@ Library  SeleniumLibrary
 *** Test Cases ***
 User must sign in to check out
     [Documentation]  This is some basic info about the test
-    [Tags]  Smoke  test
+    [Tags]  Smoke  test_checout 
     Open Browser  http://www.amazon.com  chrome
     #Wait Until Page Contains  Your Amazon.com
     Input Text  id=twotabsearchtextbox  Ferrari 458
